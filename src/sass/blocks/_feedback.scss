@@ -1,0 +1,36 @@
+.feedback {
+  padding-bottom: 50px;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  &__item_image {
+    margin-right: 60px;
+  }
+  &__item__title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0D0D0D;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  &__item__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #646464;
+    margin: 0;
+  }
+  &__item__descr {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0D0D;
+    span{
+      font-style: italic;
+    }
+  }
+
+}
