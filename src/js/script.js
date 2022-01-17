@@ -148,6 +148,7 @@ $(document).ready(function(){
     validateForms('#consultation-form');
     validateForms('#order form');
 
+    $('input[name=phone]').mask("+3(999) 999-99-99");
 
 
 
