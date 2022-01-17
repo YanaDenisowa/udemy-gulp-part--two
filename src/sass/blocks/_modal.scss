@@ -7,11 +7,13 @@
   background: rgba(0, 0, 0, .56);
 }
 .modal {
+  border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   //min-height: 400px;
   background: #F2F2F2;
   //border: 1px solid #000000;
@@ -44,6 +46,14 @@
   }
   &__mini {
    min-height: 140px;
+  }
+  .error {
+    border: 1px solid $main-color;
+    text-align: center;
+  }
+  label.error {
+    border: none;
+    margin-bottom: 15px;
   }
 }
 #consultation, #order, #thanks {
